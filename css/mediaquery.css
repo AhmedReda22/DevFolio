@@ -1,0 +1,97 @@
+@media all and (max-width:575px) {
+
+  .navbar-nav{
+    background-color: #fff;
+  }
+
+  .navbar-nav .nav-link {
+    color: #464646;
+    font-weight: 600;
+    position: relative;
+  }
+
+  .navbar-nav  li a:hover{
+    color: #0F80FF;
+  }
+  .navbar-nav .items a:hover::after{
+    width: 0%;
+  }
+  
+  .plus .bx {
+    top: -24px;
+    left: 90%;
+  }
+
+  .home {
+    background-image: url(../imgs/hero-bg.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+  }
+
+  #carousel .overlay .carousel-inner p {
+    padding: 0px 0px;
+  }
+
+  .time {
+    width: 200px;
+    display: flex;
+    align-content: end;
+    margin-right: -50px;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+}
+
+@media all and (min-width:576px) and (max-width:767px) {
+
+  .plus .bx {
+    top: -24px;
+    left: 90%;
+  }
+  .time {
+    width: 200px;
+    display: flex;
+    align-content: end;
+    margin-right: -50px;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .home {
+    background-image: url(../imgs/hero-bg.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+  }
+
+  #carousel .overlay .carousel-inner p {
+    padding: 0px 0px;
+  }
+
+}
+
+@media all and (min-width:768px) and (max-width:991px) {
+  .plus .bx {
+    top: 50%;
+    left: 20%;
+  }
+
+  .home {
+    background-image: url(../imgs/hero-bg.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+  }
+
+  #carousel .overlay .carousel-inner p {
+    padding: 0px 0px;
+  }
+
+  
+}
+
+@media all and (min-width:992px) and (max-width:1199px) {}
+
+@media all and (min-width:1200px) {}
